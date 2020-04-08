@@ -103,8 +103,9 @@
     image: /local/images/switcher/switcher_on.png
     style: |
       ha-card {
-      border-radius: var(--border-radius);
+      border-radius: 5px;
       overflow: hidden;
+      opacity: 0.8;
       }            
     type: picture-elements
     - color_type: blank-card
@@ -232,7 +233,7 @@
     state:
       - styles:
         card:
-        - background-color: 'rgba(97,103,114,0.7)'
+        - background-color: 'rgba(0,0,166,0.9)'
         name:
         - color: '#F0F0F0'
       value: '15'
@@ -269,7 +270,7 @@
     state:
       - styles:
         card:
-        - background-color: 'rgba(97,103,114,0.7)'
+        - background-color: 'rgba(0,0,166,0.9)'
         name:
         - color: '#F0F0F0'
       value: '30'
@@ -306,7 +307,7 @@
     state:
       - styles:
         card:
-        - background-color: 'rgba(97,103,114,0.7)'
+        - background-color: 'rgba(0,0,166,0.9)'
         name:
         - color: '#F0F0F0'
       value: '45'
@@ -343,7 +344,7 @@
     state:
       - styles:
         card:
-        - background-color: 'rgba(97,103,114,0.7)'
+        - background-color: 'rgba(0,0,166,0.9)'
         name:
         - color: '#F0F0F0'
       value: '60'
